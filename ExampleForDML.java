@@ -17,7 +17,7 @@ public class ExampleForDML {
             // Setup: Create table for DML operations
             s.execute(
                     "CREATE TABLE IF NOT EXISTS dml_users(id INT PRIMARY KEY, name VARCHAR(255), email VARCHAR(255))");
-            s.execute("TRUNCATE TABLE dml_users"); // Clean start
+            s.execute("TRUNCATE TABLE dml_users"); 
 
             // 1. INSERT
             System.out.println("--- INSERT Operation ---");
